@@ -1,0 +1,14 @@
+@charset "utf-8";
+/*este es mi primer estilo*/
+    body
+    {
+    background-image:url('1.jpeg');
+/*coloca la imagen solo una vez*/
+    background-repeat:no-repeat;
+/*la imagen queda adherida al fondo y no se mueva*/
+    background-attachment:fixed;
+/*indica la posicion de la imagen*/
+    background-position: center;
+/*indica el tamaño de la imgen*/
+    background-size: 1100px 750px;
+    }

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+               
+        
+        <link href="css/jquery.mobile.structure-1.3.2.min.css" rel="stylesheet">
+        <link href="css/yt.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/miestilo.css" type="text/css" media="all"/>
+    
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/jquery.mobile-1.3.2.min.js"></script>
+        <script src="js/acciones.js"></script>        
+        
+
+        
+        <!-- necesario*/ -->
+    </head>
+    
+    <body>
+        <div data-role="page" id="page">
+	<div data-role="header">
+        <marquee behavior="alternate"> <h1 align="center">* Catálogo de vestidos de XV años *</h1> </marquee>
+	</div>
+	<div data-role="content" style="background:#C68CE1">	
+	<ul data-role="listview">
+	    <li><a href="#page2"> <h2> Modelo </h2> </a></li>
+            <li><a href="#page3"> <h2> Corte </h2> </a></li>
+	    <li><a href="#page4"> <h2> Tela </h2> </a></li>
+            <li><a href="#page5"> <h2> Color </h2> </a></li>
+            
+	</ul>
+     <div align="center">
+    <img src="imagenes/MODELO.png" width="350" height="350">
+    </div>		
+	</div>
+	<div data-role="footer">
+		<h4>Sugar Girls</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+	  <h1> Modelo de vestidos </h1>
+	</div>
+	<div data-role="content" style="background:#C68CE1">	
+	
+         	
+    <div align="center">
+    
+	</div>
+    </div>
+	<div data-role="footer">
+		<h4> Sugar Girls </h4>
+          <a href="#page" data-role="button" data-inline="true" data-icon="arrow-l" data-iconpos="left" style="background:#EB63AD">
+  Página Principal
+  </a>
+  </div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+	  <h1> Corte de vestidos </h1>
+	</div>
+	<div data-role="content" style="background:#C68CE1">	
+	<div align="center">
+    
+     <a href="#" data-role="button" data-inline="true"  style="background:#EB63AD" id="sirena">
+    Sirena
+     </a>
+    
+     <a href="#" data-role="button" data-inline="true"  style="background:#EB63AD" id="strapless">
+    Strapless
+     </a>
+     
+     <a href="#" data-role="button" data-inline="true"  style="background:#EB63AD" id="tirantes">
+     Tirantes
+     </a>
+     
+     <a href="#" data-role="button" data-inline="true"  style="background:#EB63AD" id="drapeado">
+     Drapeado
+     </a>
+     </div>
+     <div align="center" id="corte" >
+   
+     
+     </div>
+     </div>
+	<div data-role="footer">
+		<h4> Sugar Girls </h4>
+          <a href="#page" data-role="button" data-inline="true" data-icon="arrow-l" data-iconpos="left" style="background:#EB63AD">
+  Página Principal
+  </a>
+  </div>
+</div>
+
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+	  <h1> Tela de vestidos </h1>
+	</div>
+	<div data-role="content" style="background:#C68CE1">	
+     <div align="center">
+     <a href="#" data-role="button" data-inline="true"  style="background:#EB63AD" id="organza">
+     Organza
+     </a>
+     
+      <a href="#" data-role="button" data-inline="true"  style="background:#EB63AD" id="tul">
+     Tul
+     </a>
+     
+      <a href="#" data-role="button" data-inline="true"  style="background:#EB63AD" id="seda">
+     Seda
+     </a>
+     
+     <a href="#" data-role="button" data-inline="true"  style="background:#EB63AD" id="guipiur">
+     Guipiur
+     </a>
+     
+     <a href="#" data-role="button" data-inline="true"  style="background:#EB63AD" id="shantu">
+     Shantu
+     </a>
+     
+     <a href="#" data-role="button" data-inline="true"  style="background:#EB63AD" id="raso">
+     Raso
+     </a>
+     
+      <a href="#" data-role="button" data-inline="true"  style="background:#EB63AD" id="manta">
+     Manta
+     </a>
+  </div>
+  <div align="center" id="tela">
+   <div align="center">
+     Modelo:
+    {Modelo}
+    <br>
+    <br>
+    Fotografia:
+    {foto}
+    <br>
+    <br>
+    Color:
+    {Color}
+     </div>
+     </div>
+    </div>
+	<div data-role="footer">
+		<h4> Sugar Girls </h4>
+          <a href="#page" data-role="button" data-inline="true" data-icon="arrow-l" data-iconpos="left" style="background:#EB63AD">
+  Página Principal
+  </a>
+  </div>
+</div>
+
+<div data-role="page" id="page5">
+	<div data-role="header">
+	  <h1> Color de vestidos </h1>
+	</div>
+	<div data-role="content" style="background:#C68CE1">
+	<div align="center">
+    <a href="#" data-role="button" data-inline="true"  style="background:#EB63AD" id="rojo">
+     Rojo
+     </a>
+     
+     <a href="#" data-role="button" data-inline="true"  style="background:#EB63AD" id="rosa">
+     Rosa
+     </a>
+     
+     <a href="#" data-role="button" data-inline="true"  style="background:#EB63AD" id="azul">
+     Azul
+     </a>
+      </div>     
+     <div align="center" id="color">
+   <div align="center">
+     Modelo:
+    {Modelo}
+    <br>
+    <br>
+    Fotografia:
+    {foto}
+     </div>
+     </div>
+     </div>
+	<div data-role="footer">
+		<h4> Sugar Girls </h4>
+          <a href="#page" data-role="button" data-inline="true" data-icon="arrow-l" data-iconpos="left" style="background:#EB63AD">
+  Página Principal
+  </a>
+  </div>
+</div>
+    </body>
+
+</html>
