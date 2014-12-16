@@ -28,8 +28,8 @@ if (DatosJSON.datos ==0)
 }
 
 
-$(document).ready(function(e){
-	 document.addEventListener("deviceready",function(){
+$(document).ready(function(e) {
+ document.addEventListener("deviceready",function(){
 		 			 alert('listo');
 		 $('#sirena').tap(function(){
 			 alert('dentro');
@@ -38,3 +38,5 @@ $(document).ready(function(e){
 		 
 	 });
 });
+
+
