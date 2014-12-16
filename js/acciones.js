@@ -1,17 +1,14 @@
 function buscarsirena()
 {
-			 alert('func');
  $.ajax({
-
 	type: "POST",
 	url: "http://192.168.1.166/proyecto/Cortesirena.php"
 	 
  }).done(function(msg){
 	 var DatosJSON = JSON.parse(msg);
-	 alert(msg);
+	 
 	 if (DatosJSON.datos ==1)
 	 {
-		 alert('datos');
 		 $('#corte').empty();
 		  for (var i = 0; i <DatosJSON.vestidos.length  ;i++)
 		  {
@@ -31,7 +28,6 @@ if (DatosJSON.datos ==0)
 $(document).ready(function(e){
 	 document.addEventListener("deviceready",function(){
 		 $('#sirena').tap(function(){
-			 alert('dentro');
 			 		 buscarsirena()
 			 });
 		 
